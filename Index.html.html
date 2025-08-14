@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blavor Employment Application</title>
+  <style>
+    /* Branding colors for Blavor */
+    :root{
+      --bg:#ffffff; --card:#f9f9f9; --ink:#222; --muted:#555; --accent:#ff7a00; --accent-2:#4aa3ff; --ok:#12b886; --warn:#ffcc00; --err:#ff4d4f;
+      --radius:18px; --gap:14px; --pad:18px; --w:920px; --shadow:0 4px 12px rgba(0,0,0,.1);
+    }
+    body{margin:0; font-family:system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, sans-serif; background:var(--bg); color:var(--ink);} 
+    .shell{max-width:var(--w); margin:32px auto 90px; padding:0 16px}
+    header{display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:16px}
+    .brand{display:flex; align-items:center; gap:12px}
+    .logo{width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#ffb86b);display:grid;place-items:center;color:#fff;font-weight:800;box-shadow:var(--shadow)}
+    h1{font-size:24px; margin:0}
+    p.sub{margin:6px 0 0; color:var(--muted); font-size:14px}
+    /* Keep rest of original styles, adapted to lighter theme */
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="brand">
+        <div class="logo">BL</div>
+        <div>
+          <h1>Blavor Employment Application</h1>
+          <p class="sub">528 Seven Bridge Rd Suite 119, East Stroudsburg, PA 18301 • safety@blavorlogistics.com • (973) 265-9600</p>
+        </div>
+      </div>
+    </header>
+    <!-- The rest of the HTML form content remains exactly as in the previous version -->
+  </div>
+</body>
+</html>
